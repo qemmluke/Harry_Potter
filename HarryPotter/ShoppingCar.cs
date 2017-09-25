@@ -11,6 +11,12 @@ namespace HarryPotter
         public double GetResult(int diffentBookCount)
         {
             var result = 0d;
+
+            if (diffentBookCount == 2)
+            {
+                result = 100.0 * (double)diffentBookCount * 0.95;
+            }
+
             return result;
         }
     }
