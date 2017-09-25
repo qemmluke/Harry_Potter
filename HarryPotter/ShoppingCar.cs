@@ -37,7 +37,9 @@ namespace HarryPotter
 
         public double GetResult(int diffentBookCount,int sameBookCount)
         {
-            var result = 0d;        
+            var result = 0d;
+
+            result = this.GetResult(diffentBookCount) + 100 * sameBookCount;
 
             return result;
         }
