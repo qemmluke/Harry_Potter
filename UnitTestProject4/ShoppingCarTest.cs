@@ -8,6 +8,7 @@ namespace UnitTestProject4
     {
         [Theory]
         [InlineData(2, 190)]
+        [InlineData(3, 270)]
         public void Test_GetResultl(int count, double expected)
         {
             //Araange
