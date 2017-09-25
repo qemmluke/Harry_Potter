@@ -22,6 +22,11 @@ namespace HarryPotter
                 result = 100.0 * (double)diffentBookCount * 0.9;
             }
 
+            if (diffentBookCount == 4)
+            {
+                result = 100.0 * (double)diffentBookCount * 0.8;
+            }
+
             return result;
         }
     }
