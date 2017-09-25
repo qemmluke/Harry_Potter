@@ -24,5 +24,20 @@ namespace UnitTestProject4
             //Arrert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(3, 1, 370)]
+        public void Test_GetREsult2(int diffentCount, int sameCount, double expected)
+        {
+            //Araange
+            var actual = 0d;
+            ShoppingCar myCar = new ShoppingCar();
+
+            //Act            
+            actual = myCar.GetResult(diffentCount, sameCount);
+
+            //Arrert
+            Assert.Equal(expected, actual);
+        }
     }
 }

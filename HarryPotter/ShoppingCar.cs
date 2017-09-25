@@ -34,6 +34,13 @@ namespace HarryPotter
 
             return result;
         }
+
+        public double GetResult(int diffentBookCount,int sameBookCount)
+        {
+            var result = 0d;        
+
+            return result;
+        }
     }
 
 }
